@@ -59,4 +59,64 @@ while x > 0:
      x -= 1
 print("Happy New Year!")
 
+#####################
+### Nested Loops  ###
+#####################
+#nested for loop
+for i in range(1, 3):
+    print (i)
+    for letter in ["a", "b", "c"]:
+        print(letter)
+        
+#using two for loops to combine lists (with addition)
+list1 = [1,2,3,4]
+list2 = [5,6,7,8]
+full = [] #empty list to contain combined list
+for i in list1:
+    for j in list2:
+        full.append(i + j)
+
+
+#######################
+###     Challenges  ###
+#######################
+""" 
+1. Print items in list.
+"""
+list_movie = ["The Walking Dead", "Entourage", "The Sopranos", "The Vampire Diaries"]
+
+for i in list_movie:
+    print(i)        
+    
+
+"""
+2. Print all numbers from 25 to 50
+"""
+
+for i in range(25, 51):
+    print(i)
+
+
+"""
+3. print each item in the list from the first challenge and their index
+"""
+for i in list_movie:
+    print(i)
+    print(list_movie.index(i))
+    
+
+"""
+4. multiply all the numbers in a list with all the numbers in another, and append to new list
+"""
+list1 = [8,19,148,4]
+list2 = [9,1,33,83]
+
+new = []
+for i in list1:
+    
+
+
+
+
+
 
