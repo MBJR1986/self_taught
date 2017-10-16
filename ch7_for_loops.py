@@ -113,6 +113,10 @@ list2 = [9,1,33,83]
 
 new = []
 for i in list1:
+    for j in list2:
+        mult = i*j
+        new.append(mult)
+print(new)
     
 
 
